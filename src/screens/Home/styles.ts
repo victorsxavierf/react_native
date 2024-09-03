@@ -17,5 +17,14 @@ export const styles = StyleSheet.create({
         color: '#195820',
         fontSize: 26,
         textAlign: "center"
+    },
+
+    input: {
+        margin: 25,
+        backgroundColor: '#333333',
+        borderRadius: 5,
+        height: 25,
+        color: '#FFFFFF',
+        paddingLeft: 8
     }
 });
