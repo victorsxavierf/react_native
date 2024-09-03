@@ -23,8 +23,37 @@ export const styles = StyleSheet.create({
         margin: 25,
         backgroundColor: '#333333',
         borderRadius: 5,
-        height: 25,
+        height: 40,
         color: '#FFFFFF',
         paddingLeft: 8
+    },
+
+    buttonContainer: {
+        flexDirection: 'row',
+        justifyContent: 'flex-start'
+    },
+
+    buttonText: {
+        color: '#FFFFFF',
+    },
+
+    button1: {
+        width: 70,
+        height: 35,
+        backgroundColor: '#195820',
+        borderRadius: 5,
+        alignItems: 'center',
+        justifyContent: 'center',
+        marginLeft: 25
+    },
+
+    button2: {
+        width: 70,
+        height: 35,
+        backgroundColor: '#800020',
+        borderRadius: 5,
+        alignItems: 'center',
+        justifyContent: 'center',
+        marginLeft: 25
     }
 });
