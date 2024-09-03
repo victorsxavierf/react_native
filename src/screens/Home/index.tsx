@@ -15,16 +15,17 @@ export default function Home(){
             <Text style = {styles.eventName}> Teste de APP </Text>
             <Text style = {styles.eventDate}> React Native </Text>
 
-            <TextInput style = {styles.input}
-            placeholder="Insira a sua senha"
-            placeholderTextColor = "#FFFFFF"
-            />
-            <View style = {styles.buttonContainer}>
-                <TouchableOpacity style = {styles.button1} onPress={handleParticipantAdd}>
-                    <Text style = {styles.buttonText}>Adicionar</Text>
+            <View style = {styles.form}>
+                <TextInput style = {styles.input}
+                placeholder="Insira a sua senha"
+                placeholderTextColor = "#FFFFFF"
+                />
+
+                <TouchableOpacity style = {styles.buttonAdd} onPress={handleParticipantAdd}>
+                    <Text style = {styles.buttonText}>+</Text>
                 </TouchableOpacity>
-                <TouchableOpacity style = {styles.button2} onPress={handleParticipantRemove}>
-                    <Text style = {styles.buttonText}>Remove</Text>
+                <TouchableOpacity style = {styles.buttonRemove} onPress={handleParticipantRemove}>
+                    <Text style = {styles.buttonText}>-</Text>
                 </TouchableOpacity>
             </View>
         </View>

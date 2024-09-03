@@ -20,40 +20,45 @@ export const styles = StyleSheet.create({
     },
 
     input: {
+        flex: 1,
         margin: 25,
         backgroundColor: '#333333',
         borderRadius: 5,
-        height: 40,
+        height: 56,
         color: '#FFFFFF',
-        paddingLeft: 8
-    },
+        paddingLeft: 8,
+        marginRight: 20
+        },
 
-    buttonContainer: {
+    form: {
+        marginTop: 25,
+        marginBottom: 36,
         flexDirection: 'row',
-        justifyContent: 'flex-start'
+        width: '95%'
     },
 
     buttonText: {
         color: '#FFFFFF',
     },
 
-    button1: {
-        width: 70,
-        height: 35,
+    buttonAdd: {
+        marginTop: 25,
+        width: 56,
+        height: 56,
         backgroundColor: '#195820',
         borderRadius: 5,
         alignItems: 'center',
         justifyContent: 'center',
-        marginLeft: 25
     },
 
-    button2: {
-        width: 70,
-        height: 35,
+    buttonRemove: {
+        marginTop: 25,
+        width: 56,
+        height: 56,
         backgroundColor: '#800020',
         borderRadius: 5,
         alignItems: 'center',
         justifyContent: 'center',
-        marginLeft: 25
+        marginLeft: 5
     }
 });
